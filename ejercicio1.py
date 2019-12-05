@@ -27,3 +27,7 @@ if __name__ == "__main__":
     num4 = int(input("Ingrese un número del 0 al 10: "))
     num5 = int(input("Ingrese un número del 0 al 10: "))
     run(num1, num2, num3, num4, num5)
+
+    perceptron(1, 5, 1, 5)
+    perceptron(1, 10, 1, 5)
+    perceptron(1, 5, 1, 10)
